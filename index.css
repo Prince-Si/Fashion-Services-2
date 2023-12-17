@@ -57,3 +57,20 @@ body {
     color: whitesmoke;
     padding:50px;
 }
+
+.ptagline{
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 60px;
+}
+
+#first-container{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.item{
+  padding:30px;
+  border:1px solid rgb(152, 150, 150)
+}
