@@ -74,3 +74,27 @@ body {
   padding:30px;
   border:1px solid rgb(152, 150, 150)
 }
+
+#Footer{
+  display:flex;
+  gap:20px;
+  flex-basis:auto;
+  background-color: black;
+  color:whitesmoke;
+  padding: 20px;
+  padding-top:40px;
+  padding-bottom: 40px;
+}
+
+#Footer > * {                     /*each child of Footer*/
+  flex-grow: 1;
+}
+
+#Footer div a{
+  text-decoration: none;
+  color:white;
+}
+
+.footerh{
+  color:rgb(149, 147, 147);
+}
